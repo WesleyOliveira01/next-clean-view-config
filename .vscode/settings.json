@@ -1,0 +1,41 @@
+{
+  "files.exclude": {
+    // Pastas de build e cache
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.turbo": true,
+    "**/dist": true,
+    "**/.cache": true,
+    "**/coverage": true,
+    "**/build": true,
+    "**/out": true,
+
+    // Arquivos de configuração do sistema e IDE
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+
+    // Arquivos de log
+    "**/*.log": true,
+
+    // Arquivos de configuração do Next.js e TypeScript
+    "**/next-env.d.ts": true,
+    "**/next.config.js": true,
+    "**/next.config.ts": true,
+    "**/tsconfig.json": true,
+
+    // Arquivos de configuração de dependências
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/pnpm-lock.yaml": true,
+    "**/bun.lock": true,
+    "**/package.json": true,
+
+    // Arquivos de configuração de ferramentas
+    "**/postcss.config.mjs": true,
+    "**/eslint.config.mjs": true,
+
+    // Documentação
+    "**/README.md": true
+  }
+}
